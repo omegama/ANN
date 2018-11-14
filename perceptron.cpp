@@ -58,7 +58,7 @@ int main(int argc, char const *argv[])
 	int numSets = stoi(nSets);
 	if (numSets == 0) {
 		cout << "no solution found";
-		return -1;
+		return 0;
 	}
 	//cout << dimen << "\n" << trainSize << "\n" << numSets << "\n";
 
@@ -110,7 +110,7 @@ int main(int argc, char const *argv[])
 		}
 		if (ntrainSets == 0) {
 			cout << "no solution found here";
-			return -1;
+			return 0;
 		}
 	}
 	vector<float> trial;
