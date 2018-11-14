@@ -109,7 +109,7 @@ int main(int argc, char const *argv[])
 			flag = true;
 		}
 		if (ntrainSets == 0) {
-			cout << "no solution found here";
+			cout << "no solution found";
 			return 0;
 		}
 	}
